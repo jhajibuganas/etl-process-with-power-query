@@ -44,6 +44,24 @@ A demo of extract, transform, and load process using Power Query in Excel or Pow
   >
   ![updated folder path](screenshots/updated_folderpath.jpg)
   ![parameter value](screenshots/parameter_value.jpg)
+  >
+9. Right-click on the query pane anywhere on the grey area, and we will create the following groups for all of our queries/tables.
+  - Parameter
+  - Extract
+  - Transform
+  - Load
+  >
+  ![create group](screenshots/create_group.jpg)
+  >
+10. Once all groups are created, place the **p_folderPath** in the **Parameter** folder and the **ETL_PowerQuery** table to **Extract** folder.
+  >
+  ![created group](screenshots/created_group.jpg)
+  >
+11. Rename the **ETL_PowerQuery** as **extract_transactions** &#8594; go to current view and filter **Name** to **transactions.xlsx** and **Extension** to **.xlsx**. We are instructing our query to accept only the **transactions.xlsx** and **.xlsx** files in case other files are in the folder path.
+  >
+  ![rename filter table](screenshots/rename_filter_table.jpg)
+  >
+12. 
   
 ### Transform
 
