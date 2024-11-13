@@ -1,2 +1,3 @@
-# etl_process_with_power_query
-A demo on how to extract, transform, and load (ETL) the data using Power Query in Excel or PowerBI, create data model and build relationship.
+# Extract, Transform, and Load (ETL) using Power Query
+
+A demo of extract, transform, and load process using Power Query in Excel or PowerBI, create a data model, and build relationships.
