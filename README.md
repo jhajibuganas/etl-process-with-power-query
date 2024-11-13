@@ -107,7 +107,7 @@ A demo of extract, transform, and load process using Power Query in Excel or Pow
   >
 3. Follow the steps on how to normalize data from this link: https://github.com/jhajibuganas/data_normalization. This phase of the transformation process can include:
   - Setting up data in a tabular format and organize the dataset with Rows representing records and Columns representing variables.
-  - Check and correct the data types.
+  - Data checking and correcting the data types.
   >
   ![final transform table](transform_screenshots/final_transform_table.jpg)
   >
