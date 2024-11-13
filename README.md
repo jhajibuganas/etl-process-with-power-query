@@ -5,10 +5,11 @@
 - [Overview](#overview)
 - [Extract](#extract)
 - [Transform](#transform)
+- [Load](#load)
 
 ### Overview
 
-A demo of extract, transform, and load process using Power Query in Excel or PowerBI, create a data model, and build relationships.
+A demo of extract, transform, and load process using Power Query in Excel or PowerBI.
 
 ### Extract
 
@@ -45,7 +46,7 @@ A demo of extract, transform, and load process using Power Query in Excel or Pow
   ![updated folder path](screenshots/updated_folderpath.jpg)
   ![parameter value](screenshots/parameter_value.jpg)
   >
-9. Right-click on the query pane anywhere on the grey area, and we will create the following groups for all of our queries/tables.
+9. Right-click on the query pane anywhere in the grey area, and we will create the following groups for all of our queries/tables.
   - Parameter
   - Extract
   - Transform
@@ -61,8 +62,38 @@ A demo of extract, transform, and load process using Power Query in Excel or Pow
   >
   ![rename filter table](screenshots/rename_filter_table.jpg)
   >
-12. 
-  
+12. Go to **Add Column** &#8594; select **Custom Column**, and give it a name &#8594; on the **Custom column formula**, add ***Excel.Workbook([Content])*** then click **OK**
+  >
+  ![custom column1](screenshots/custom_column1.jpg)
+  >
+13. Expand the custom column we created by clicking the arrow beside the **GetContent** column, uncheck **Use original column name as prefix** then click **OK**.
+  >
+  ![expand getcontent](screenshots/expand_getcontent.jpg)
+  >
+14. Filter **Kind** column to **Sheet** then click **OK**.
+  >
+  ![filter kind](screenshots/filter_kind.jpg)
+  >
+15. Go to **Add Column** &#8594; select **Custom Column**, give it a name &#8594; on the **Custom column formula**, add ***Table.PromoteHeaders([Data])*** then click **OK**. We are making the first row of our data as Headers.
+  >
+  ![custom column2](screenshots/custom_column2.jpg)
+  >
+16. Right-click on the **PromoteHeaders** column &#8594; select **Remove Other Columns**
+  >
+  ![remove other columns](screenshots/remove_other_column.jpg)
+  >
+  ![removed other columns](screenshots/removed_other_column.jpg)
+  >
+17. Right-click on the arrow beside **PromoteHeaders** column to expand the data &#8594; uncheck **Use original column name as prefix** then click **OK**.
+  >
+  ![expand promoteheaders](screenshots/expand_promoteheaders.jpg)
+  >
+18. Finally, we have done the first stage of the ETL process. All the steps we have made are recorded on the **APPLIED STEPS**, you can go back, review, and make changes if you need to.
+  >
+  ![final extract table](screenshots/final_extract_table.jpg)
+  >
+
 ### Transform
 
-1. 
+
+### Load
