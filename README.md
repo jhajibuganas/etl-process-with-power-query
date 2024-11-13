@@ -95,5 +95,22 @@ A demo of extract, transform, and load process using Power Query in Excel or Pow
 
 ### Transform
 
+1. Right-click on the **extract_transform** table &#8594; uncheck **Enable load**.
+  >
+  ![uncheck enable load ](transform_screenshots/uncheck_enable_load.jpg)
+  >
+2. Right-click on the extract_transactions table &#8594; select Reference &#8594; repeat 7 times, rename it, and place it in the Transform table as shown below. Make the to uncheck Enable load for all the table.
+  >
+  ![reference](transform_screenshots/reference.jpg)
+  >
+  ![created transform table](transform_screenshots/created_transform_table.jpg)
+  >
+3. Follow the steps on how to normalize data from this link: https://github.com/jhajibuganas/data_normalization. This phase of the transformation process can include:
+  - Setting up data in a tabular format and organize the dataset with Rows representing records and Columns representing variables.
+  - Check and correct the data types.
+  >
+  ![final transform table](transform_screenshots/final_transform_table.jpg)
+  >
+
 
 ### Load
