@@ -6,6 +6,8 @@
 - [Extract](#extract)
 - [Transform](#transform)
 - [Load](#load)
+- [Data Model and Relationships](#data-model-and-relationships)
+- [Additional Reference](#additional-reference)
 
 ### Overview
 
@@ -127,4 +129,21 @@ A demo of extract, transform, and load process using Power Query in Excel or Pow
   >
   ![load table](load_screenshots/load_table.jpg)
   >
-4. 
+4. The final stage of our loading process is to group our table into a Fact and Dimension table.
+  - Fact Table: Stores quantitative data about the business transactions.
+  - Dimension Table: Stores descriptive attributes that provide context to the Fact table.
+  >
+  Right-click on the **transactions** table &#8594; select **Move To Group** &#8594; **New Group** &#8594; name the group as **fact** &#8594; click **OK**.
+  Repeat the process for the **customer**, **stores**, **products**, and name it as **dimension**.
+  >
+  ![fact table](load_screenshots/fact_table.jpg) 
+  >
+  ![fact dim table](load_screenshots/fact_dim_table.jpg) 
+5. 
+
+### Data Model and Relationships
+  - *In-progress*
+### Additional Reference
+- https://learn.microsoft.com/en-us/azure/architecture/data-guide/relational-data/etl
+- https://learn.microsoft.com/en-us/power-bi/guidance/star-schema
+
