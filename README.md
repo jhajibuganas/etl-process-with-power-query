@@ -139,7 +139,6 @@ A demo of extract, transform, and load process using Power Query in Excel or Pow
   ![fact table](load_screenshots/fact_table.jpg) 
   >
   ![fact dim table](load_screenshots/fact_dim_table.jpg) 
-5. 
 
 ## Data Model and Relationships
   - *In-progress*
