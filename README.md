@@ -99,7 +99,7 @@ A demo of extract, transform, and load process using Power Query in Excel or Pow
   >
   ![uncheck enable load ](transform_screenshots/uncheck_enable_load.jpg)
   >
-2. Right-click on the extract_transactions table &#8594; select Reference &#8594; repeat 7 times, rename it, and place it in the Transform table as shown below. Make sure to uncheck Enable load for all the tables.
+2. Right-click on the extract_transactions table &#8594; select Reference &#8594; repeat 4 times, rename it, and place it in the Transform table as shown below. Make sure to uncheck **Enable load** for all the tables.
   >
   ![reference](transform_screenshots/reference.jpg)
   >
