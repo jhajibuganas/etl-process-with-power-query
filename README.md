@@ -9,7 +9,7 @@
 
 ### Overview
 
-A demo of extract, transform, and load process using Power Query in Excel or PowerBI.
+A demo of extract, transform, and load process using Power Query in Excel or PowerBI, creating a Star Schema data model, and building relationships.
 
 ### Extract
 
@@ -114,3 +114,17 @@ A demo of extract, transform, and load process using Power Query in Excel or Pow
 
 
 ### Load
+
+1. Right-click on the **transform_transactions** table &#8594; select **Reference** &#8594; a new table will be created named **transform_transactions(2)**.
+  >
+  ![reference table](load_screenshots/reference_table.jpg)
+  >
+2. Right-click on the **transform_transactions(2)** &#8594; **Move To Group** &#8594; **Load** &#8594; Rename it by right-clicking again on the table and select **Rename** &#8594; Name it as **transactions**.
+  >
+  ![reference load table](load_screenshots/reference_load_table.jpg)
+  >
+3. Repeat the step 2 above for the remaining tables. We should have the following tables in the **Load** folder.
+  >
+  ![load table](load_screenshots/load_table.jpg)
+  >
+4. 
