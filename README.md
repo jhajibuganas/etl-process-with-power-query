@@ -1,6 +1,6 @@
 # Extract, Transform, and Load (ETL) using Power Query
 
-## Table of Contents
+## <ins>Table of Contents</ins>
 
 - [Overview](#overview)
 - [Extract](#extract)
@@ -9,11 +9,11 @@
 - [Data Model and Relationships](#data-model-and-relationships)
 - [Additional Reference](#additional-reference)
 
-### Overview
+### <ins>Overview</ins>
 
 A demo of extract, transform, and load process using Power Query in Excel or PowerBI, creating a Star Schema data model, and building relationships.
 
-### Extract
+### <ins>Extract</ins>
 
 1. Open PowerBI Desktop app &#8594; Select **Blank Report**
   >
@@ -95,7 +95,7 @@ A demo of extract, transform, and load process using Power Query in Excel or Pow
   ![final extract table](extract_screenshots/final_extract_table.jpg)
   >
 
-### Transform
+### <ins>Transform</ins>
 
 1. Right-click on the **extract_transform** table &#8594; uncheck **Enable load**.
   >
@@ -115,7 +115,7 @@ A demo of extract, transform, and load process using Power Query in Excel or Pow
   >
 
 
-### Load
+### <ins>Load</ins>
 
 1. Right-click on the **transform_transactions** table &#8594; select **Reference** &#8594; a new table will be created named **transform_transactions(2)**.
   >
@@ -141,9 +141,9 @@ A demo of extract, transform, and load process using Power Query in Excel or Pow
   ![fact dim table](load_screenshots/fact_dim_table.jpg) 
 5. 
 
-### Data Model and Relationships
+### <ins>Data Model and Relationships</ins>
   - *In-progress*
-### Additional Reference
+### <ins>Additional Reference</ins>
 - https://learn.microsoft.com/en-us/azure/architecture/data-guide/relational-data/etl
 - https://learn.microsoft.com/en-us/power-bi/guidance/star-schema
 
