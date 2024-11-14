@@ -141,7 +141,19 @@ A demo of extract, transform, and load process using Power Query in Excel or Pow
   ![fact dim table](load_screenshots/fact_dim_table.jpg) 
 
 ## Data Model and Relationships
-  - *In-progress*
+  - Go to **Model view** &#8594; hold ***CustomerID*** from ***customer*** table and drop to ***CustomerID*** from the ***transactions*** table. Repeat the steps for the **products** and **stores** tables.
+    - **customers.CustomerID = transactions.CustomerID**
+    - **product.ProductID = transactions.ProductID**
+    - **stores.StoreID = transactions.StoreID**
+    - **Cardinality = One to many (1:*)**
+    - **Cross-filter direction = Single**
+  >
+  ![model view](data_model/data_model_view.jpg)
+  >
+  ![customer transaction connection](data_model/cunstomer_transaction_connection.jpg)
+  >
+  ![data model](data_model/data_model.jpg)
+  >
 ## Additional Reference
 - https://learn.microsoft.com/en-us/azure/architecture/data-guide/relational-data/etl
 - https://learn.microsoft.com/en-us/power-bi/guidance/star-schema
