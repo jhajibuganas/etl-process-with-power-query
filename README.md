@@ -7,6 +7,7 @@
 - [Transform](#transform)
 - [Load](#load)
 - [Data Model and Relationships](#data-model-and-relationships)
+- [Conclusion](#conclusion)
 - [Additional Reference](#additional-reference)
 
 ## Overview
@@ -154,6 +155,11 @@ A demo of extract, transform, and load process using Power Query in Excel or Pow
   >
   ![data model](data_model/data_model.jpg)
   >
+
+## Conclusion
+
+ETL solutions improve quality by performing data cleansing and transformation before loading the data to a different repository or business intelligence tool.
+
 ## Additional Reference
 - https://learn.microsoft.com/en-us/azure/architecture/data-guide/relational-data/etl
 - https://learn.microsoft.com/en-us/power-bi/guidance/star-schema
